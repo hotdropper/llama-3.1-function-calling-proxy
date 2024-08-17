@@ -4,7 +4,7 @@ const { handleCompletionRequest } = require('./handlers/completionHandler');
 
 const router = express.Router();
 
-const COMPLETION_ENDPOINT = '/v1/completions';
+const COMPLETION_ENDPOINT = process.env.COMPLETION_ENDPOINT || '/v1/completions';
 
 // Generic pass-through handler for all OpenAI endpoints except /completions
 router.use(async (req, res, next) => {

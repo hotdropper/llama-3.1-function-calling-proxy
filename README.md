@@ -41,7 +41,8 @@ The Llama 3.1 Function Calling Proxy is a Node.js-based middleware designed to f
     OPENAI_API_KEY=boguskey
     PORT=3000
     HOST=127.0.0.1
-
+    COMPLETION_ENDPOINT=/v1/completions
+   
 4. Start the Proxy
 
     ```bash

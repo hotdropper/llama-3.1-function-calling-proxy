@@ -1,0 +1,21 @@
+{
+  "type": "function",
+  "name": "getTime",
+  "description": "Fetches the current time for a specified timezone.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "timezone": {
+        "type": "string",
+        "description": "The timezone to fetch the current time for.",
+        "format": "timezone"
+      },
+      "locale": {
+        "type": "string",
+        "description": "The locale to use for the time format.",
+        "format": "locale"
+      }
+    },
+    "required": ["timezone", "locale"]
+  }
+}

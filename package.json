@@ -1,0 +1,21 @@
+{
+  "name": "llama-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.7.0",
+    "ajv": "^8.17.1",
+    "axios": "^1.7.4",
+    "express": "^4.19.2",
+    "jsonic": "^1.0.1",
+    "pino": "^9.3.2",
+    "pino-pretty": "^11.2.2"
+  }
+}

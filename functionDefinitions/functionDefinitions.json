@@ -1,0 +1,6 @@
+{
+  "functions": [
+    "./functionDefinitions/getWeather.json",
+    "./functionDefinitions/getTime.json"
+  ]
+}
